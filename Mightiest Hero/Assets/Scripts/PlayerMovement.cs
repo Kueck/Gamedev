@@ -57,8 +57,8 @@ public class PlayerMovement : MonoBehaviour
         transform.position += moveDir * speed * Time.deltaTime;
         anim.SetFloat("DirectionX", moveDir.x);
         anim.SetFloat("DirectionY", moveDir.y);
-        print("moveDiry:" + moveDir.y);
-        print(moveDir);
+        //print("moveDiry:" + moveDir.y);
+        //print(moveDir);
     }
 
     void doDamage()
